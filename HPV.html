@@ -2,6 +2,21 @@
 <html lang="en">
 
 <head>
+<style>
+figure {
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: auto;
+}
+
+figcaption {
+  background-color: white;
+  color: black;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+</style>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -36,7 +51,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="about.html">About</a>
+            <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
@@ -60,22 +75,25 @@
     <div class="row" id="aboutme">
 
         <div class="col-md-7 col-sm-12">
-          <div class="embed-responsive" style="padding-bottom: 100%">
-          <object data="files/HPV.pdf" type="application/pdf"></object>
-        </div>
+          <iframe src="files/HPV.pdf" style="width:600px; height: 890px;" frame border="0"></iframe>
         </div>
 
         <div class="col-md-5 col-sm-12">
-          <img src="images/bike.jpg" alt="a picture of bike" class="img-fluid">
-        </div>
-        <div class="col-md-7">
-          <!-- blank -->
+          <figure>
+            <img src="images/bike.jpg" alt="a picture of bike" class="img-fluid">
+            <figcaption>Human-powered vehicle for Dr. Moran.</figcaption>
+          </figure>
+
+          <figure>
+            <video width="435" height="400" controls>
+              <source src="videos/moranbike.mp4" type="video/mp4">
+            </video>
+            <figcaption>Dr. Moran riding the vehicle for the first time!</figcaption>
+          </figure>
         </div>
 
-        <div class="col-md-3">
-           <video width="450" height="400" controls>
-            <source src="videos/moranbike.mp4" type="video/mp4">
-           </video>
+        <div class="col-md-5">
+           
         </div>
 
     

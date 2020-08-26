@@ -2,6 +2,21 @@
 <html lang="en">
 
 <head>
+<style>
+figure {
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: auto;
+}
+
+figcaption {
+  background-color: white;
+  color: black;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+</style>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -36,7 +51,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="about.html">About</a>
+            <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
@@ -60,7 +75,7 @@
     <div class="row" id="aboutme">
 
         <div class="col-md-7 col-sm-12">
-          <p class="aboutme">Someday before in the summer of 2020, I watched some Youtube videos and read articles on different raspberry pi uses to try to scratch my itch for creating something. I saw multiple projects on what people called smart mirrors, aka magic mirrors which are mirrors that display time, news, and weather. Furthermore, I stumbled upon a community of smart mirror builders who were very supportive in helping each other out. The mirror and community fascinated me to the point where I needed to build one as well. I started by getting all the items needed for the build.
+          <p class="aboutme">In the summer of 2020, I watched some Youtube videos and read articles on different raspberry pi uses to try to scratch my itch for creating something. I saw multiple projects on what people called smart mirrors, aka magic mirrors, which are mirrors that display time, news, and weather. Furthermore, I stumbled upon a community of smart mirror builders who were very supportive in helping each other out. The mirror and community fascinated me to the point where I needed to build one as well. I started by getting all the items needed for the build.
           <p></p> The part list I planned out consisted of...
             <ul>
             <li>Wood for frame</li>
@@ -81,7 +96,7 @@
             <li>Sonos Smart Switch</li>
             </ul>
             <p></p>
-            After constructing the frame and installing the mirror and monitor, I had to set up the smart mirror software that the raspberry pi will run. Through <a href="https://magicmirror.builders" target="_blank">MagicMirror<sup>2</sup></a>, I was able to access a community driven smart mirror platform. With this platform users can contribute to the platform with new ideas and modules for the mirror to display. One module I made sure to add was the spotify music player because music is great. Along with the spotify module, I wanted the mirror to have Alexa control my smart mirror through voice commands. There was a module for Alexa, however I found it to be buggy. So, I simply installed an Amazon Echo inside the mirror which gave the same functionality. Also, I installed a smart switch on the extension cable so I would be able to turn on and off the mirror through my phone or Alexa. The end result can be seen in the video on the right->
+            After constructing the frame and installing the mirror and monitor, I had to set up the smart mirror software that the raspberry pi would run. Through <a href="https://magicmirror.builders" target="_blank">MagicMirror<sup>2</sup></a>, I was able to access a community-driven smart mirror platform where users can contribute new ideas and modules for the mirror to display. One module I was sure to include was the Spotify music player because music is great. Along with the Spotify module, Alexa to be able to control my smart mirror through voice commands. There was a module for Alexa, but I found it to be buggy. Instead, I simply installed an Amazon Echo inside the mirror which gave the same functionality. I also installed a smart switch on the extension cable, so I would be able to turn the mirror on and off through my phone or Alexa. The end result can be seen in the video on the right &#8594;
 
 
 
@@ -90,17 +105,20 @@
         </div>
 
          <div class="col-md-5 col-sm-12">
+          <figure>
             <img src="images/mirror.jpg" alt="A picture of mirror" class="img-fluid">
+            <figcaption> My Smart Mirror </figcaption>
+             </figure>
+              <figure>
+             <video width="435" height="400" controls>
+            <source src="videos/mirrorvideo.mp4" type="video/mp4">
+           </video>
+           <figcaption> My Smart Mirror Walkthrough</figcaption>
+         </figure>
          </div>
 
         <div class="col-md-7">
           <!-- blank -->
-        </div>
-
-        <div class="col-md-5">
-           <video width="450" height="400" controls>
-            <source src="videos/mirrorvideo.mp4" type="video/mp4">
-           </video>
         </div>
     
      </div> <!-- end about me class -->
